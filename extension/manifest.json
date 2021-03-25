@@ -1,0 +1,16 @@
+{
+    "update_url": "https://clients2.google.com/service/update2/crx",
+
+    "manifest_version": 3,
+
+    "name": "Tabs Backup",
+    "short_name": "Tabs Backup",
+    "description": "Save and load browser tabs",
+    "version": "1.0.0",
+
+    "permissions": ["windows", "tabs"],
+    "action": {
+        "default_title": "Tabs Backup",
+        "default_popup": "views/popup.html"
+    }
+}

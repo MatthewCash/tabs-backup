@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script defer src="./js/popup.js"></script>
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="options">
+                <h1>Tabs Backup</h1>
+                <textarea
+                    name="tabs"
+                    id="tabs-data"
+                    cols="30"
+                    rows="10"
+                ></textarea>
+                <div>
+                    <input
+                        type="checkbox"
+                        name="use-window-props"
+                        id="use-window-props"
+                    />
+                    <label for="use-window-props">
+                        Include Window Dimensions and Position</label
+                    >
+                </div>
+                <hr />
+                <button id="save-json">Save (JSON)</button>
+                <button id="save-b64">Save (base64)</button>
+                <button id="load-json">Load (JSON)</button>
+                <button id="load-b64">Load (base64)</button>
+            </div>
+        </div>
+    </body>
+</html>
