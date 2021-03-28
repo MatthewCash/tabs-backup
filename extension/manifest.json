@@ -1,7 +1,7 @@
 {
     "update_url": "https://clients2.google.com/service/update2/crx",
 
-    "manifest_version": 3,
+    "manifest_version": 2,
 
     "name": "Tabs Backup",
     "short_name": "Tabs Backup",
@@ -9,8 +9,9 @@
     "version": "1.0.0",
 
     "permissions": ["windows", "tabs"],
-    "action": {
+    "browser_action": {
         "default_title": "Tabs Backup",
         "default_popup": "views/popup.html"
-    }
+    },
+    "commands": {}
 }
